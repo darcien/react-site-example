@@ -12,7 +12,7 @@ module.exports = {
     },
     sourceType: 'module',
   },
-  plugins: ['react', 'prettier'],
+  plugins: ['flowtype', 'react', 'prettier'],
   rules: {
     indent: ['error', 2],
     'linebreak-style': ['error', 'unix'],
